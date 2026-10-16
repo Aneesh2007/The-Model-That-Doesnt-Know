@@ -1,4 +1,4 @@
-"""Optional Streamlit demo for known-class prediction and uncertainty rejection."""
+
 from pathlib import Path
 import tempfile
 
