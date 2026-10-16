@@ -1,0 +1,15 @@
+# Reproducible baseline for Windows + Python 3.12
+# Install the CPU-only torch/torchvision wheels from the PyTorch CPU index first;
+# then install the remaining pinned packages with: python -m pip install -r requirements.txt
+
+torch==2.6.0
+torchvision==0.21.0
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.1
+Pillow==11.1.0
+scipy==1.15.2
+streamlit==1.44.1
+tqdm==4.67.1
+pytest==8.3.5
